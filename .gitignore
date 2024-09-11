@@ -1,0 +1,14 @@
+# 가상 환경
+ncf_model_server/venv_3.10.13/
+
+# PyTorch 관련 대용량 파일
+*.dylib
+*.so
+*.dllncf_model_server/model/NMF3.pt
+*.dllncf_model_server/model/MLP3.pt
+*.dllncf_model_server/model/NMF3.pt
+
+
+
+ncf_model_server/venv_3.10.13/
+ncf_model_server/venv/

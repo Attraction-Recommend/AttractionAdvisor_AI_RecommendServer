@@ -31,7 +31,7 @@ is_updating = False
 class RecommendRequest(BaseModel):
     travel_id: str
 
-@app.post("/update_model")
+@app.post("/recommend/update_model")
 async def update_model(request: dict, background_tasks: BackgroundTasks):
     print("모델 업데이트 요청이 왔습니다.")
     #if is_updating:
